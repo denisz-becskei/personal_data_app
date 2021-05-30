@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Personal Data</string>
+    <string name="logo">logo</string>
+    <string name="login_id">Login ID</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="logout">Logout</string>
+    <string name="search_for_personal_data">Search For Personal Data</string>
+    <string name="list_data">List Data</string>
+    <string name="my_profile">My Profile</string>
+    <string name="login_e_mail">Login E-mail</string>
+    <string name="listing_name_placeholder">Person Name</string>
+    <string name="listing_info_placeholder">Person Info</string>
+    <string name="listing_details_button">Details</string>
+    <string name="search">Search</string>
+    <string name="information_change">Information Change</string>
+    <string name="change_password">Change Password</string>
+    <string name="new_password">new_password</string>
+    <string name="password_again">Password Again</string>
+    <string name="new_password_titlized">New Password</string>
+    <string name="click_to_start">Click the search button and start typing!</string>
+    <string name="register">Register</string>
+    <string name="e_mail">E-mail</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="nil">nil</string>
+    <string name="id_number">ID Number</string>
+    <string name="gender">Gender</string>
+    <string name="birth_date_and_age">Birth Date and Age</string>
+    <string name="set_as_background">Set Photo as Background</string>
+    <string name="username">Username</string>
+    <string name="new_username">New Username</string>
+    <string name="change_username">Change Username</string>
+
+    <array name="person_name_array">
+        <item>Molly Goodwin</item>
+        <item>Gabriel Chamberlain</item>
+        <item>Corey Carpenter</item>
+        <item>Jennifer Hall</item>
+        <item>Toby May</item>
+        <item>Chloe Townsend</item>
+        <item>Matthew Gibson</item>
+        <item>Maisie Stevens</item>
+        <item>Hollie Gregory</item>
+        <item>Sabrina Smith</item>
+    </array>
+
+    <array name="person_birth_date_array">
+        <item>7/24/1989</item>
+        <item>2/15/1985</item>
+        <item>10/25/1979</item>
+        <item>12/2/1994</item>
+        <item>3/11/1986</item>
+        <item>8/5/2014</item>
+        <item>9/8/1958</item>
+        <item>1/1/1990</item>
+        <item>6/5/1997</item>
+        <item>4/15/2001</item>
+    </array>
+
+    <array name="person_gender_array">
+        <item>F</item>
+        <item>M</item>
+        <item>M</item>
+        <item>O</item>
+        <item>M</item>
+        <item>F</item>
+        <item>U</item>
+        <item>F</item>
+        <item>F</item>
+        <item>F</item>
+    </array>
+
+    <array name="person_images">
+        <item>@drawable/person1</item>
+        <item>@drawable/person2</item>
+        <item>@drawable/person3</item>
+        <item>@drawable/person4</item>
+        <item>@drawable/person5</item>
+        <item>@drawable/person6</item>
+        <item>@drawable/person7</item>
+        <item>@drawable/person8</item>
+        <item>@drawable/person9</item>
+        <item>@drawable/person10</item>
+    </array>
+
+    <array name="person_identity_array">
+        <item>89MGFE</item>
+        <item>85GCMA</item>
+        <item>79CCMA</item>
+        <item>94JHOT</item>
+        <item>86TMMA</item>
+        <item>14CTFE</item>
+        <item>58MGUN</item>
+        <item>90MSFE</item>
+        <item>97HGFE</item>
+        <item>01SSFE</item>
+    </array>
+</resources>

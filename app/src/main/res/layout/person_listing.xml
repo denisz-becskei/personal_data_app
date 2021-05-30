@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/person_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:minHeight="75dp"
+            android:minWidth="75dp"
+            android:maxWidth="75dp"
+            android:maxHeight="75dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/person_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/person_img"
+            android:padding="8dp"
+            android:text="@string/listing_name_placeholder"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/person_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/person_name"
+            android:padding="8dp"
+            android:text="@string/listing_info_placeholder"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/person_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/person_info"
+            android:text="@string/listing_details_button"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

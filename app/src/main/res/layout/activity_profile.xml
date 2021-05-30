@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:id="@+id/infoChangeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/information_change"
+            android:textSize="30sp"/>
+
+    </TableRow>
+    <TableRow android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:weightSum="1"
+        >
+
+        <TextView
+            android:id="@+id/passwordChangeLabel"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/new_password_titlized"
+            android:textSize="15sp"
+            android:layout_column="0"
+
+        />
+
+        <EditText
+            android:id="@+id/passwordChangeEditText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:width="100dp"
+            android:hint=""
+            android:labelFor="@+id/passwordChangeLabel"
+            android:inputType="textPassword"
+            android:autofillHints="@string/password"
+            android:layout_column="1"
+            tools:ignore="LabelFor" />
+
+    </TableRow>
+    <TableRow android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:weightSum="1"
+        >
+
+        <TextView
+            android:id="@+id/passwordConfirmLabel"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/password_again"
+            android:textSize="15sp"
+            android:layout_column="0"
+
+            />
+
+        <EditText
+            android:id="@+id/passwordConfirmEditText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:width="100dp"
+            android:hint=""
+            android:labelFor="@+id/passwordAgainLabel"
+            android:inputType="textPassword"
+            android:autofillHints="@string/password"
+            android:layout_column="1"
+            tools:ignore="LabelFor" />
+
+    </TableRow>
+    <TableRow android:id="@+id/row4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:weightSum="1"
+        >
+
+        <Button
+            android:id="@+id/changePassBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="@string/change_password"
+            tools:layout_editor_absoluteX="0dp"
+            android:onClick="changePass"/>
+
+    </TableRow>
+
+    <TableRow android:id="@+id/row5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:weightSum="1"
+        >
+
+        <TextView
+            android:id="@+id/usernameChangeLabel"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/new_username"
+            android:textSize="15sp"
+            android:layout_column="0"
+
+            />
+
+        <EditText
+            android:id="@+id/usernameChangeEditText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:width="100dp"
+            android:hint=""
+            android:labelFor="@+id/usernameChangeLabel"
+            android:inputType="text"
+            android:autofillHints="@string/username"
+            android:layout_column="1"
+            tools:ignore="LabelFor" />
+
+    </TableRow>
+
+    <TableRow android:id="@+id/row6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:weightSum="1"
+        >
+
+        <Button
+            android:id="@+id/changeUsernameBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="@string/change_username"
+            tools:layout_editor_absoluteX="0dp"
+            android:onClick="changeUname"/>
+
+    </TableRow>
+</TableLayout>
